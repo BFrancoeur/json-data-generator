@@ -13,8 +13,9 @@ Create a tool that quickly generates as many rows of data as needed to conduct t
 * Abstract away blocks of code to simplify use
 
 ## Architecture -- ALL MODULES
-* Create a parent object model file 
 * Create a data.json file for the dataset
+* Create a parent object model file 
 * Create an interface file for extending the parent object
+* Create a generator module that uses the parent object (and interface, if necessary)
 * Create a file for CRUD operations
 * Create a web page for viewing the data (may need multiple templates)
